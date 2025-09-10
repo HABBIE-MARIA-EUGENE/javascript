@@ -30,7 +30,11 @@ console.log(null);
 let undefinedValue = undefined;
 console.log(undefinedValue);
 
-// Functions
+// Function decl.
+function  greet(name) {
+    return `Hello, ${name}! This is a simple fun dec.!`;
+}
+console.log(greet(name));
 
 
 
